@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+body {
+  background-image: url(../img/bg.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-pack: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  font-family: "Tilt Neon";
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid white;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 800px;
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  -webkit-box-shadow: 6px 6px 20px rgba(255, 255, 255, 0.2);
+          box-shadow: 6px 6px 20px rgba(255, 255, 255, 0.2);
+}
+
+.container_list {
+  border: 1px solid white;
+  margin: 5px 0;
+  overflow-y: auto;
+  min-height: 450px;
+  max-height: 500px;
+  padding: 6px;
+}
+
+.container h1 {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  font-family: "Tilt Neon";
+}
+
+.form {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn {
+  margin: 10px 0 10px 0;
+  width: 100px;
+  border-radius: 30px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: "Tilt Neon";
+  margin-left: 5px;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+}
+.btn:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+
+.list {
+  padding: 5px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.butcont {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.item {
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+  border-bottom: 2px solid white;
+  color: white;
+  padding: 10px;
+  line-height: 40px;
+  word-wrap: break-word;
+  width: 100%;
+  text-align: left;
+  font-family: "Tilt Neon";
+  overflow-x: inherit;
+  font-size: 25px;
+}
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.ib {
+  border: none;
+  border-radius: 30px;
+  width: 90px;
+  height: 30px;
+  font-size: 70%;
+  margin-left: 10px;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+}
+.ib:hover {
+  cursor: pointer;
+  color: #02ff28;
+  background-color: black;
+}
+
+.spancont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.done {
+  background-color: #02ff28;
+  color: black;
+}
+
+.ib_del {
+  border: none;
+  border-radius: 30px;
+  width: 90px;
+  height: 30px;
+  font-size: 70%;
+  margin-left: 10px;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+}
+.ib_del:hover {
+  cursor: pointer;
+  color: #FF3625;
+  background-color: black;
+}
+
+.input {
+  border-radius: 30px;
+  font-size: 30px;
+  font-family: "Tilt Neon";
+  width: 100%;
+  padding: 3px;
+  padding-left: 15px;
+  margin: 10px 0 10px 10px;
+}
